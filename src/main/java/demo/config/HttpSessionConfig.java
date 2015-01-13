@@ -9,7 +9,7 @@ import org.springframework.session.web.http.HeaderHttpSessionStrategy;
 import org.springframework.session.web.http.HttpSessionStrategy;
 
 @Configuration
- @Import(EmbeddedRedisConfiguration.class)
+@Import(EmbeddedRedisConfiguration.class)
 @EnableRedisHttpSession
 public class HttpSessionConfig {
 
